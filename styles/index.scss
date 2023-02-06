@@ -1,0 +1,178 @@
+@import "variables.scss";
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.price-card {
+    height: 100%;
+    display: flex;
+    background: $backgraund-color-main;
+    justify-content: center;
+    align-items: center;
+    padding: 115px 132px;
+
+    &__row {
+        display: flex;
+        // padding: 115px 132px;
+    }
+    &___image-caption {
+        position: absolute;
+    }
+    &__image-caption {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 36px;
+        margin-right: 7px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+    }
+
+    &__table {
+        width: 380px;
+        // height: 770px;
+        margin-right: 18px;
+        background-color: $backgraund-color-table;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+
+    &__decoration {
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__image {
+        position: absolute;
+    }
+    &__image-caption {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 153px;
+        margin-right: 7px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: $cuption-color-white;
+    }
+
+    &__block-title1 {
+        text-align: center;
+        display: flex;
+        margin-top: 33px;
+        margin-bottom: 33px;
+        justify-content: center;
+    }
+    &__block-title2 {
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+    &__block-title3 {
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+
+    &__title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+        color: $cuption-color-white;
+    }
+    &__thin-text {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 67px;
+        color: $cuption-color-white;
+        height: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .green {
+        background-color: $green-color;
+    }
+    .blue {
+        background-color: $blue-color;
+    }
+    .orange {
+        background-color: $orange-color;
+    }
+    &__description {
+        width: 327px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: $cuption-color-white;
+        margin: 40px 26px 0 26px;
+    }
+    &__options {
+        padding: 0;
+        margin: 0;
+        margin-top: 40px;
+        list-style-type: none;
+    }
+    &__option-list {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        color: $cuption-color-white;
+
+        &:nth-child(odd) {
+            background-color: $backgraund-color-line;
+        }
+    }
+    &__shape-green {
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+        height: 13px;
+        display: inline-block;
+        width: 15px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    &__shape-blue {
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+        height: 13px;
+        display: inline-block;
+        width: 15px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    &__shape-orange {
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+        height: 13px;
+        display: inline-block;
+        width: 15px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    &__order {
+        margin-top: 50px;
+        margin-left: 112px;
+        margin-bottom: 40px;
+        width: 154px;
+        height: 40px;
+        background: $green-color;
+        border-radius: 20px;
+        border: 0;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: $cuption-color-white;
+    }
+}

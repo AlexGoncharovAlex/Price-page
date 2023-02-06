@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price-card {
+  height: 100%;
+  display: flex;
+  background: #141b1c;
+  justify-content: center;
+  align-items: center;
+  padding: 115px 132px;
+}
+.price-card__row {
+  display: flex;
+}
+.price-card___image-caption {
+  position: absolute;
+}
+.price-card__image-caption {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 36px;
+  margin-right: 7px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.price-card__table {
+  width: 380px;
+  margin-right: 18px;
+  background-color: #334247;
+}
+.price-card__table:last-child {
+  margin-right: 0px;
+}
+.price-card__decoration {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.price-card__image {
+  position: absolute;
+}
+.price-card__image-caption {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 153px;
+  margin-right: 7px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.price-card__block-title1 {
+  text-align: center;
+  display: flex;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  justify-content: center;
+}
+.price-card__block-title2 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.price-card__block-title3 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.price-card__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+}
+.price-card__thin-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.price-card__price {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  color: #ffffff;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-card .green {
+  background-color: #5bb189;
+}
+.price-card .blue {
+  background-color: #3a6ba5;
+}
+.price-card .orange {
+  background-color: #ec632a;
+}
+.price-card__description {
+  width: 327px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 40px 26px 0 26px;
+}
+.price-card__options {
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  list-style-type: none;
+}
+.price-card__option-list {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.price-card__option-list:nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__shape-green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  height: 13px;
+  display: inline-block;
+  width: 15px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.price-card__shape-blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  height: 13px;
+  display: inline-block;
+  width: 15px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.price-card__shape-orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  height: 13px;
+  display: inline-block;
+  width: 15px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.price-card__order {
+  margin-top: 50px;
+  margin-left: 112px;
+  margin-bottom: 40px;
+  width: 154px;
+  height: 40px;
+  background: #5bb189;
+  border-radius: 20px;
+  border: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */
