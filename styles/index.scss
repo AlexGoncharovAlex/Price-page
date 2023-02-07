@@ -16,6 +16,7 @@
 .price-card {
     margin: 0;
     width: 380px;
+    height: 770px;
     overflow: hidden;
     background: #334247;
     position: relative;
@@ -48,6 +49,7 @@
         text-align: center;
         color: #ffffff;
         margin-top: 33px;
+        height: 64px;
 
         &_thin {
             font-weight: 300;
