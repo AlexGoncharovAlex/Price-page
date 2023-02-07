@@ -14,6 +14,7 @@
 
 .price-card {
   margin: 0;
+  height: 770px;
   width: 380px;
   overflow: hidden;
   background: #334247;
@@ -84,6 +85,7 @@
 .price-card__option-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .price-card__introduction {
   height: 50px;

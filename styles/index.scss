@@ -15,7 +15,7 @@
 }
 .price-card {
     margin: 0;
-
+    height: 770px;
     width: 380px;
     overflow: hidden;
     background: #334247;
@@ -92,6 +92,7 @@
         list-style-type: none;
         // margin-top: 56px;
         padding: 0;
+        margin: 0;
     }
     &__introduction {
         height: 50px;
