@@ -82,7 +82,7 @@
   text-align: center;
   color: #ffffff;
 }
-.price-card__option-list {
+.price-card__options-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -99,20 +99,20 @@
 .price-card__introduction:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__verifacation-checkmark-symbol {
+.price-card .verifacation-checkmark__symbol {
   height: 13px;
   display: inline-block;
   width: 15px;
   margin-left: 22px;
   margin-right: 22px;
 }
-.price-card__verifacation-checkmark-symbol_green {
+.price-card .verifacation-checkmark__symbol_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card__verifacation-checkmark-symbol_blue {
+.price-card .verifacation-checkmark__symbol_blue {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card__verifacation-checkmark-symbol_orange {
+.price-card .verifacation-checkmark__symbol_orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__order-btn {

@@ -88,7 +88,7 @@
         text-align: center;
         color: #ffffff;
     }
-    &__option-list {
+    &__options-list {
         list-style-type: none;
         // margin-top: 56px;
         padding: 0;
@@ -107,7 +107,7 @@
             background-color: $backgraund-color-line;
         }
     }
-    &__verifacation-checkmark-symbol {
+    .verifacation-checkmark__symbol {
         height: 13px;
         display: inline-block;
         width: 15px;
