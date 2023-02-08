@@ -23,7 +23,7 @@
 }
 .price-card__badge {
   position: absolute;
-  left: 132px;
+  left: 131px;
   top: 8px;
 }
 .price-card__badge_popular {
@@ -52,6 +52,8 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
+  position: relative;
+  top: -5px;
 }
 .price-card__price {
   font-weight: 700;
